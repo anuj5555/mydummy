@@ -1,0 +1,75 @@
+body{
+	background-image:url("wallpaper.jpg");
+	object-fit:cover;  //use for preserve aspect ratio of image use contain on place of cover thAT doesnt clip image
+      background-repeat: no-repeat;
+    background-size:1540px 755px;
+	color:pink; 
+}
+a{
+	//background-color:green;
+	 text-decoration: none;
+}.fr{
+	color:yellow;
+	padding:20px;
+	margin:5px 10px;
+	border-radius:30px;
+}
+article{ 
+color:white;
+font-style:italic;
+/*font-weight:bold;*/
+font-size:52px;
+background-color:orange; //style="background-color:rgb(0, 153, 0);-->
+
+}
+div{ 
+color:yellow;         /* for <span class="red">...</span> use here .red{       } */
+}
+
+}
+
+a:hover {
+	color:green;
+
+}
+a:hover:not(.active) {
+
+  background-color: #ffd;
+  }
+	.tm ul li{  display: inline-block;
+ font-size:40px;
+	list-style-type:upper-roman;
+  	//can also use list-style-image:url('...');
+	float:right;
+	color:red;
+	padding-top:300px;
+	margin-right:20px;
+	
+
+	
+}
+//float to float image right left and clear  to remove all float design
+.pagination a {
+    color: black;
+  
+   //float:right;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: width .3s;
+}
+
+.pagination a.active {
+    background-color: black;
+    color: white;
+}
+.pagination {
+    display: inline-block;
+   
+}
+.center {
+    text-align: center;
+    font-size:40px;
+}
+.pagination a:hover:not(.active) {background-color: gray;
+	color:red;
+width: 30px;}

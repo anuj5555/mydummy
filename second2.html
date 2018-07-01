@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> introduction to css  </title>
+	     <meta http-equiv="refresh"  content="40">
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- what if we have 10 pages ? do we write internal at every pade  ? 
+		 no, there is a method call external styling -->
+		 <link rel="stylesheet" type="text/css" href="mine1.css">
+		 <script>
+		 function copy()
+		 { alert("can not copy");
+		  }
+		function res()
+		{  alert("doesnot allow resize");
+		}</script>
+		 <!-- we can use 
+		              p{ color:red;} 
+			to color all paragraphs in body this method is called internal styjing-->		  
+</head>
+<body onresize="res()"> <!-- onresize="fname()" only give warning nd do resize -->
+       <h1 style="color:green;"> this is heading</h1>
+	   <p style="color:red;"> css stands for cascading style sheets </p>
+	  
+
+       <article> The CSS color property defines the text color to be used.</article>
+
+           <div class="red-text">The CSS font-family property defines the font to be used.</div>
+        <span class="link"> The CSS is used here.
+		  421</br>
+		  443 </span></p>
+	     
+		<a href="http://www.google.com" >link to google</a>
+	   </p>
+      <button class="fr"> <a href="D:\notepad++ programs\first1.html" > download first file</a></button>
+     <form>
+       <label>Enter your choices</label>
+       <input type="text" name="choices" value="coffee" onselect="copy()"></br>
+       </form> 
+      <nav class="tm">
+	  <ul> <marquee direction="up">
+   <li>Coffee</li>
+    <li>Tea</li>
+   <li>Milk</li>
+       </ul> </marquee>
+       </nav>
+	   <p2> list doesn't appear this may be in right due to not clear float</p2>
+</body>
+<footer>
+<div class="center">
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+</footer>
+</html>	         
